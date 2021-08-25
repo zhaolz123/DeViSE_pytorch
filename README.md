@@ -8,7 +8,7 @@
 
 环境：pytorch1.5.0  numpy  gensim
 
-训练好的模型链接：https://pan.baidu.com/s/17ZRbXU3AYqdX_DhdqYGdaw 
+训练好的Alexnet及Devise_Alexnet模型链接：https://pan.baidu.com/s/17ZRbXU3AYqdX_DhdqYGdaw 
 
 提取码：czf4
 
