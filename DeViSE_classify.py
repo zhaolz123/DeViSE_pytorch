@@ -79,7 +79,7 @@ class Devise_Cifar_classify(object):
     def cal_similarity(self, outputs, labels):
         # 计算每个batch中分类前n准确的个数
         count = 0
-        # 计算前10
+        # 计算前5
         n = 5
         for output, label in zip(outputs, labels):
             sim_results = []
@@ -117,5 +117,5 @@ class Devise_Cifar_classify(object):
 
 if __name__ == '__main__':
     cifar_cl = Devise_Cifar_classify()
-    # cifar_cl.train_data()
+    cifar_cl.train_data()
     cifar_cl.test_data()
